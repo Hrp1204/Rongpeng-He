@@ -1,143 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic homepage of Rongpeng He, PhD candidate at the Aerospace Information Research Institute, Chinese Academy of Sciences and University of Chinese Academy of Sciences. Research: Earth observation, GeoAI, agricultural remote sensing, food security and sustainable agrifood systems.">
-  <meta name="keywords" content="Rongpeng He, agricultural remote sensing, Earth observation, GeoAI, crop mapping, digital soil mapping, food security, SDG 2, sustainable agriculture, Sentinel, Google Earth Engine">
-  <meta name="author" content="Rongpeng He">
-  <title>Rongpeng He | Earth Observation · GeoAI · Sustainable Agriculture</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <nav class="topnav" aria-label="Primary navigation">
-    <div class="nav-inner">
-      <a class="brand" href="#top">Rongpeng He</a>
-      <div class="nav-links">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Academic homepage of Rongpeng He, PhD candidate in agricultural remote sensing, GeoAI, food security and sustainable agrifood systems."><title>Rongpeng He | Earth Observation · GeoAI · Food Security</title><style>
+:root{--bg:#f3f6fb;--card:#fff;--text:#1d2938;--muted:#66758a;--blue:#1e5d9f;--dark:#123b68;--soft:#eaf2fa;--line:#dce5ef;--gold:#a56b15;--shadow:0 12px 34px rgba(30,61,98,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,#fbfdff,#f2f6fb);line-height:1.68}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1160px;margin:auto;padding:13px 24px;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;color:var(--text)}.links{display:flex;gap:18px;flex-wrap:wrap}.links a{color:var(--muted);font-size:.94rem;font-weight:650}
+.hero{background:radial-gradient(circle at 15% 5%,#3478d4,#173d76 38%,#0d2547 100%);color:#fff;padding:64px 24px 56px}.hero-inner{max-width:1160px;margin:auto;display:grid;grid-template-columns:220px 1fr;gap:38px;align-items:center}.portrait{width:210px;height:210px;object-fit:cover;object-position:center 23%;border-radius:50%;border:5px solid rgba(255,255,255,.92);box-shadow:0 18px 45px rgba(0,0,0,.25)}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.13em;font-size:.77rem;font-weight:800}.eyebrow{color:#cfe0ff}.hero h1{font-size:clamp(2.5rem,5vw,4.35rem);line-height:1.03;margin:6px 0}.cn{font-size:.42em;font-weight:550}.aff{color:#e8efff;margin:.4rem 0 1rem}.lead{font-size:1.1rem;max-width:850px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-flex;padding:10px 15px;border-radius:9px;font-weight:700;border:1px solid rgba(255,255,255,.4);color:#fff;background:rgba(255,255,255,.08)}.btn.primary{background:#fff;color:var(--dark)}.btn.light{background:var(--soft);border:1px solid #ccdaeb;color:var(--dark)}.btn:hover{text-decoration:none}
+main{max-width:1160px;margin:auto;padding:30px 24px 70px}.section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 32px;margin:22px 0;box-shadow:var(--shadow)}.kicker{color:var(--blue);margin:0}.section h2{font-size:2rem;margin:3px 0 18px}.section h3{margin-top:0}.muted{color:var(--muted)}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.card{padding:20px;border:1px solid var(--line);border-radius:14px;background:#fbfdff}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:22px}.stat{padding:17px;background:var(--soft);border-radius:12px}.stat strong{display:block;font-size:1.45rem;color:var(--dark)}.stat span{font-size:.9rem;color:var(--muted)}.focus{margin-top:18px;padding:18px 20px;border-left:4px solid var(--blue);border-radius:10px;background:#f1f6fc}.project{padding:19px;border:1px solid var(--line);border-radius:13px;margin:13px 0}.project-meta{font-size:.92rem;color:var(--blue);font-weight:750}.sdg{background:linear-gradient(135deg,#fffdf2,#fff8dd);border-color:#ecd797}.pubs li{margin-bottom:17px}.result{color:var(--dark);font-weight:700}
+.workflow-card{overflow:hidden}.figure-window{min-height:245px;border:1px dashed #aebfd3;border-radius:12px;background:linear-gradient(135deg,#f7faff,#edf3f9);display:flex;align-items:center;justify-content:center;text-align:center;padding:26px}.figure-window strong{font-size:1.13rem;color:var(--dark)}.fig-caption{font-size:.92rem;color:var(--muted);margin-top:10px}.figure-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:13px}.notice{padding:14px 16px;background:#fff6e8;border-left:4px solid #d58a20;border-radius:9px;color:#6d4b1d}
+.cvactions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.contact{background:linear-gradient(135deg,#f7fbff,#eaf2fa)}.contact-links{display:flex;gap:16px;flex-wrap:wrap;font-weight:700}.small{font-size:.9rem;color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:.9rem;padding:20px}
+@media(max-width:850px){.links{display:none}.hero-inner{grid-template-columns:1fr;text-align:center}.portrait{margin:auto}.actions,.contact-links{justify-content:center}.grid2,.skills,.stats{grid-template-columns:1fr}.section{padding:24px 20px}}
+</style></head><body>
+<nav><div class="nav"><a class="brand" href="#top">Rongpeng He</a><div class="links"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#workflows">Workflows</a><a href="#cv">CV</a><a href="#contact">Contact</a></div></div></nav>
+<header id="top" class="hero"><div class="hero-inner"><img class="portrait" src="assets/profile_2inch.jpg" alt="Rongpeng He"><div><p class="eyebrow">PhD Candidate · Agricultural Remote Sensing · GeoAI</p><h1>Rongpeng He <span class="cn">何荣鹏</span></h1><p class="aff">Aerospace Information Research Institute, Chinese Academy of Sciences (AIRCAS)<br>University of Chinese Academy of Sciences (UCAS)</p><p class="lead">I develop <strong>AI-enabled Earth observation</strong> methods that transform multi-source geospatial data into actionable information for <strong>food security, sustainable agriculture, climate resilience and SDG 2</strong>.</p><div class="actions"><a class="btn primary" href="https://orcid.org/0009-0001-4943-5326" target="_blank">ORCID</a><a class="btn" href="#cv">Download CV</a><a class="btn" href="mailto:herongpeg22@mails.ucas.ac.cn">Email</a><a class="btn" href="https://github.com/Hrp1204" target="_blank">GitHub</a></div></div></div></header>
+<main>
+<section class="section"><p class="kicker">PROFILE</p><h2>About me</h2><p>I am a PhD candidate working at the intersection of <strong>Earth observation big data, artificial intelligence and agricultural sustainability</strong>. My work spans digital soil mapping, multi-source spectral fusion, large-area crop monitoring, multimodal satellite time series and generalizable agricultural mapping.</p><p>My current geographic focus spans <strong>Xinjiang and Central Asia</strong>, where contrasting agroclimatic zones and limited labels provide a natural testbed for label-efficient, multimodal and transferable agricultural AI.</p><div class="stats"><div class="stat"><strong>2</strong><span>first-author international articles</span></div><div class="stat"><strong>2</strong><span>granted invention patents</span></div><div class="stat"><strong>2015–2025</strong><span>annual 10-m SOM mapping</span></div><div class="stat"><strong>SDG 2</strong><span>sustainability reporting contribution</span></div></div></section>
 
-  <header id="top" class="hero">
-    <div class="hero-inner">
-      <img src="../profile.jpg" alt="Portrait of Rongpeng He" class="profile-pic">
-      <div class="hero-copy">
-        <p class="eyebrow">PhD Candidate · Agricultural Remote Sensing · GeoAI</p>
-        <h1>Rongpeng He <span class="cn-name">何荣鹏</span></h1>
-        <p class="affiliation">Aerospace Information Research Institute, Chinese Academy of Sciences (AIRCAS)<br>University of Chinese Academy of Sciences (UCAS)</p>
-        <p class="hero-statement">I develop <strong>AI-enabled Earth observation</strong> methods that turn multi-source geospatial data into actionable information for <strong>food security, sustainable agriculture, climate resilience and SDG 2</strong>.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://orcid.org/0009-0001-4943-5326" target="_blank" rel="noopener">ORCID 0009-0001-4943-5326</a>
-          <a class="button" href="mailto:herongpeng22@mails.ucas.ac.cn">Email me</a>
-          <a class="button" href="https://github.com/Hrp1204" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </div>
-    </div>
-  </header>
+<section id="research" class="section"><p class="kicker">RESEARCH</p><h2>Research vision</h2><div class="grid2">
+<div class="card"><h3>Earth Observation Big Data & GeoAI</h3><p>Scalable processing and representation learning for multi-source, multi-temporal EO data, emphasizing Sentinel-1/2, Landsat, hyperspectral observations and cloud-scale geospatial computing.</p></div>
+<div class="card"><h3>Generalizable Crop Intelligence</h3><p>Label-efficient crop mapping through multimodal phenology, weak supervision, few-shot adaptation, domain adaptation/generalization and geospatial foundation-model representations.</p></div>
+<div class="card"><h3>Digital Soil & Agroecosystem Monitoring</h3><p>Spectral reconstruction, soil-vegetation signal separation and machine learning for soil organic matter, nitrogen, moisture and crop-soil indicators.</p></div>
+<div class="card"><h3>Food Security & Sustainable Agrifood Systems</h3><p>Connecting EO and AI products with agricultural monitoring, climate resilience, SDG 2 assessment and evidence-based decision support.</p></div></div>
+<div class="focus"><strong>Current doctoral direction.</strong> Cross-regional crop mapping using 2025 Kashgar field samples, 2026 northern Xinjiang samples, historical crop maps, Sentinel-1/Sentinel-2 time series and climate/soil covariates, with eventual transfer toward Kyrgyzstan, Uzbekistan and other data-scarce agricultural regions.</div></section>
 
-  <main>
-    <section class="intro section-card">
-      <div class="section-heading"><p class="section-kicker">PROFILE</p><h2>About me</h2></div>
-      <p>I am a PhD candidate working at the intersection of <strong>Earth observation big data, artificial intelligence and agricultural sustainability</strong>. My research has progressed from digital soil mapping and multi-source spectral fusion to large-area crop monitoring, multimodal satellite time series and generalizable agricultural mapping. I am particularly interested in building scalable Earth-intelligence methods that remain reliable across regions and years and can support agricultural statistics, resource management and food-security decision making.</p>
-      <p>My current geographic focus spans <strong>Xinjiang and Central Asia</strong>, where heterogeneous agroclimatic conditions and limited labels provide a natural testbed for label-efficient, multimodal and transferable agricultural AI.</p>
-      <div class="stats">
-        <div><strong>2</strong><span>first-author international research articles</span></div>
-        <div><strong>2</strong><span>granted invention patents</span></div>
-        <div><strong>2015–2025</strong><span>annual 10-m soil organic matter mapping</span></div>
-        <div><strong>SDG 2</strong><span>research translated into sustainability reporting</span></div>
-      </div>
-    </section>
+<section id="publications" class="section"><p class="kicker">SELECTED OUTPUTS</p><h2>Publications</h2><ol class="pubs">
+<li><strong>He, R.</strong>, Meng, J., & Na, H. (2026). <em>Dual-dimension spectral reconstruction: spatiotemporal mapping of soil organic matter under complex cropland surface conditions.</em> <strong>International Journal of Digital Earth</strong>, 19(2), 2697113. <a href="https://doi.org/10.1080/17538947.2026.2697113" target="_blank">DOI</a><br><span class="result">First author · annual 10-m SOM maps for 2015–2025 · mean R² = 0.76 ± 0.01, RMSE = 2.25 ± 0.03 g/kg</span></li>
+<li><strong>He, R.</strong>, Meng, J., Du, Y., Lin, Z., You, X., & Gao, X. (2024). <em>Enhancing Regional Topsoil Total Nitrogen Mapping Through Differentiated Fusion of Ground Hyperspectral Data and Satellite Images Under Low Vegetation Cover.</em> <strong>Agriculture</strong>, 14, 2145. <a href="https://doi.org/10.3390/agriculture14122145" target="_blank">DOI</a><br><span class="result">First author · DFE_MSIBs + RF · R² = 0.95, RMSE = 0.10 g/kg, LCCC = 0.89</span></li>
+<li>Meng, J., <strong>He, R.</strong>, & Lin, Z. (2024). <em>Status and Prospects of Google Earth Engine in Agricultural Management Research.</em> <strong>Journal of Geo-information Science</strong>, 26(4). <a href="https://doi.org/10.12082/dqxxkx.2024.230760" target="_blank">DOI</a></li></ol></section>
 
-    <section id="research" class="section-card">
-      <div class="section-heading"><p class="section-kicker">RESEARCH</p><h2>Research vision</h2></div>
-      <div class="research-grid">
-        <article><h3>Earth Observation Big Data & GeoAI</h3><p>Scalable processing and representation learning for multi-source, multi-temporal Earth observation data, with emphasis on Sentinel-1/2, Landsat, hyperspectral observations and cloud-scale geospatial computing.</p></article>
-        <article><h3>Generalizable Crop Intelligence</h3><p>Label-efficient crop mapping through multimodal phenology, weak supervision, few-shot adaptation, domain adaptation/generalization and emerging geospatial foundation-model representations.</p></article>
-        <article><h3>Digital Soil & Agroecosystem Monitoring</h3><p>Multi-source spectral reconstruction, soil–vegetation signal separation and machine learning for soil organic matter, nitrogen, moisture and related crop–soil indicators.</p></article>
-        <article><h3>Food Security & Sustainable Agrifood Systems</h3><p>Connecting Earth observation and AI products with agricultural monitoring, climate resilience, SDG 2 assessment and evidence-based decision support across data-scarce agricultural regions.</p></article>
-      </div>
-      <div class="focus-box"><strong>Current doctoral direction.</strong> I am building a cross-regional crop-mapping framework using 2025 field samples from Kashgar (southern Xinjiang), 2026 field samples from northern Xinjiang, historical crop maps and multi-year Sentinel-1/Sentinel-2 time series. The long-term goal is to move beyond single-region classification toward robust agricultural Earth intelligence that can transfer from Xinjiang to Kyrgyzstan, Uzbekistan and other data-scarce regions.</div>
-    </section>
+<section id="projects" class="section"><p class="kicker">RESEARCH EXPERIENCE</p><h2>Selected projects & impact</h2>
+<div class="project"><div class="project-meta">2025–2029 · Xinjiang Major Science & Technology Project</div><h3>Satellite-UAV-Station Collaborative Monitoring of Wind-Sand and Salinity Hazards</h3><p>Project member (24 person-months), contributing to long-term multi-source EO data and parameter products for Xinjiang, including crop type, cropping intensity, soil and vegetation indicators.</p></div>
+<div class="project"><div class="project-meta">2025–2027 · Kashgar Science & Technology Program</div><h3>Aerospace Big-Data Resource/Environment Applications and Sustainable-Development Monitoring</h3><p>Project backbone member responsible for cotton-parameter retrieval and supporting operational products for crop area, growth, cropping intensity, fallow land and other agricultural indicators.</p></div>
+<div class="project"><div class="project-meta">2023–2024 · National Key R&D-related Task</div><h3>Integrated Software R&D for Unmanned-Farm Soil Parameter Retrieval</h3><p>Developed multi-source remote-sensing workflows for six soil parameters; differentiated ground-satellite fusion + Random Forest achieved R²=0.95 and RMSE=0.10 g/kg for topsoil total nitrogen.</p></div>
+<div class="project sdg"><div class="project-meta">2024 · SDG 2 “Zero Hunger”</div><h3>Big Earth Data in Support of the Sustainable Development Goals Report</h3><p>Contributed multi-source agricultural monitoring methods, including dynamic soil available-nitrogen monitoring and crop-maturity prediction, with outputs incorporated into the sustainable-agriculture pathway case for SDG 2 monitoring and decision support.</p></div></section>
 
-    <section id="education" class="section-card">
-      <div class="section-heading"><p class="section-kicker">EDUCATION</p><h2>Education</h2></div>
-      <div class="timeline">
-        <div class="timeline-item"><div class="time">2025–Present</div><div><h3>PhD Candidate</h3><p>Aerospace Information Research Institute, Chinese Academy of Sciences / University of Chinese Academy of Sciences</p><p class="muted">Research focus: agricultural remote sensing, Earth observation big data and GeoAI.</p></div></div>
-        <div class="timeline-item"><div class="time">2022–2025</div><div><h3>Master's Degree, Electronic Information</h3><p>University of Chinese Academy of Sciences / AIRCAS</p><p class="muted">GPA 3.69/4.00; research in remote sensing image processing, agricultural remote sensing and soil nutrient monitoring.</p></div></div>
-        <div class="timeline-item"><div class="time">2018–2022</div><div><h3>BEng, Surveying and Mapping Engineering</h3><p>Chang'an University</p><p class="muted">Ranked 4th in the cohort; recommended for postgraduate admission to UCAS.</p></div></div>
-      </div>
-    </section>
+<section id="workflows" class="section"><p class="kicker">REPRESENTATIVE RESEARCH</p><h2>Original published workflows</h2>
+<div class="notice"><strong>V3 correction:</strong> the schematic redraws used in the previous website package have been removed. The links below point to the actual published workflow figures from the two first-author papers. Local image slots are reserved for the original figure PNG/JPG exports, so no reconstructed scientific graphic is presented as the original.</div>
+<div class="grid2" style="margin-top:17px">
+<div class="card workflow-card"><h3>IJDE 2026 · Figure 2 — Research flowchart</h3><div class="figure-window"><div><strong>Original published Figure 2</strong><br><span class="small">Ground data preparation → satellite spectral optimization → driver layer → feature selection → model optimization → 2015–2025 SOM mapping</span></div></div><p class="fig-caption">Dual-dimension spectral reconstruction for annual 10-m cropland SOM mapping.</p><div class="figure-actions"><a class="btn light" href="https://www.researchgate.net/figure/Research-flowchart_fig2_409523624" target="_blank">Open original Figure 2</a><a class="btn light" href="https://doi.org/10.1080/17538947.2026.2697113" target="_blank">Article</a></div></div>
+<div class="card workflow-card"><h3>Agriculture 2024 · Figure 4 — Regional STN workflow</h3><div class="figure-window"><div><strong>Original published Figure 4</strong><br><span class="small">Ground data → satellite data → differentiated fusion → predictor analysis → model optimization → regional STN mapping</span></div></div><p class="fig-caption">Differentiated fusion of ground hyperspectral and enhanced multispectral imagery for regional STN mapping.</p><div class="figure-actions"><a class="btn light" href="https://www.researchgate.net/figure/Schematic-diagram-and-flowchart-of-enhancing-regional-STN-mapping-Note-Some-small_fig4_386159980" target="_blank">Open original Figure 4</a><a class="btn light" href="https://doi.org/10.3390/agriculture14122145" target="_blank">Article</a></div></div>
+</div></section>
 
-    <section id="publications" class="section-card">
-      <div class="section-heading"><p class="section-kicker">SELECTED OUTPUTS</p><h2>Publications</h2></div>
-      <ol class="publication-list">
-        <li><strong>He, R.</strong>, Meng, J., & Na, H. (2026). <em>Dual-dimension spectral reconstruction: spatiotemporal mapping of soil organic matter under complex cropland surface conditions.</em> <strong>International Journal of Digital Earth</strong>, 19(2), 2697113. <a href="https://doi.org/10.1080/17538947.2026.2697113" target="_blank" rel="noopener">DOI</a><br><span class="highlight">First author · annual 10-m SOM maps for 2015–2025 · mean R² = 0.76 ± 0.01, RMSE = 2.25 ± 0.03 g/kg</span></li>
-        <li><strong>He, R.</strong>, Meng, J., Du, Y., Lin, Z., You, X., & Gao, X. (2024). <em>Enhancing Regional Topsoil Total Nitrogen Mapping Through Differentiated Fusion of Ground Hyperspectral Data and Satellite Images Under Low Vegetation Cover.</em> <strong>Agriculture</strong>, 14, 2145. <a href="https://doi.org/10.3390/agriculture14122145" target="_blank" rel="noopener">DOI</a><br><span class="highlight">First author · DFE_MSIBs + RF · R² = 0.95, RMSE = 0.10 g/kg, LCCC = 0.89</span></li>
-        <li>Meng, J., <strong>He, R.</strong>, & Lin, Z. (2024). <em>Status and Prospects of Google Earth Engine in Agricultural Management Research.</em> <strong>Journal of Geo-information Science</strong>, 26(4). <a href="https://doi.org/10.12082/dqxxkx.2024.230760" target="_blank" rel="noopener">DOI</a></li>
-      </ol>
-    </section>
+<section id="cv" class="section"><p class="kicker">CURRICULUM VITAE</p><h2>V3 bilingual CV</h2><div class="grid2">
+<div class="card"><h3>English Academic CV · 2 pages</h3><p>Rebalanced to reduce first-page whitespace while retaining a detailed international academic profile.</p><div class="cvactions"><a class="btn light" href="assets/cv/Rongpeng_He_Academic_CV_Visiting_PhD_V3.pdf" target="_blank">PDF</a><a class="btn light" href="assets/cv/Rongpeng_He_Academic_CV_Visiting_PhD_V3.docx" download>Word</a><a class="btn light" href="cv-en.html">Web CV</a></div></div>
+<div class="card"><h3>中文学术简历 · 1页</h3><p>重构为紧凑的一页双栏版式，补齐科研项目、SDG 2贡献、知识产权与荣誉。</p><div class="cvactions"><a class="btn light" href="assets/cv/何荣鹏_中文学术简历_联合培养申请版_V3.pdf" target="_blank">PDF</a><a class="btn light" href="assets/cv/何荣鹏_中文学术简历_联合培养申请版_V3.docx" download>Word</a><a class="btn light" href="cv-cn.html">网页版</a></div></div></div></section>
 
-    <section id="projects" class="section-card">
-      <div class="section-heading"><p class="section-kicker">RESEARCH EXPERIENCE</p><h2>Selected projects & impact</h2></div>
-      <div class="project-list">
-        <article class="project"><div class="project-meta">2025–2029 · Xinjiang Major Science and Technology Project</div><h3>Satellite–UAV–Station Collaborative Monitoring of Windblown Sand and Salinity Hazards</h3><p>Project member contributing to multi-source Earth observation processing and agricultural/environmental products within a Xinjiang-wide monitoring framework. The project targets 10–30 m dynamic products and includes cropland crop type, cropping intensity, soil properties, biomass and yield among more than 12 hazard and ecosystem indicators.</p></article>
-        <article class="project"><div class="project-meta">2025–2027 · Kashgar Science and Technology Plan</div><h3>Spaceborne Big Data for Resource–Environment Applications and Sustainable-Development Monitoring</h3><p>Project backbone member responsible for <strong>cotton parameter inversion</strong> and supporting agricultural remote-sensing monitoring in Kashgar.</p></article>
-        <article class="project"><div class="project-meta">2023–2024 · National Key R&D Program</div><h3>Integrated R&D and Application of Soil-Parameter Joint-Inversion Software for Unmanned Farms</h3><p>Developed multi-source remote-sensing methods for soil moisture and nutrient monitoring and contributed to spectral reconstruction/data-fusion approaches for regional soil mapping. The work supported peer-reviewed publications, granted patents and a soil-health monitoring software system.</p></article>
-        <article class="project featured-project"><div class="project-meta">SDG 2 · Zero Hunger</div><h3>Big Earth Data in Support of the Sustainable Development Goals Report</h3><p>Contributed agricultural monitoring methods including dynamic soil available-nitrogen monitoring and crop-maturity prediction. Related research outputs were incorporated into the report's sustainable-agriculture pathway, linking Earth observation products with <strong>SDG 2 monitoring, sustainable production and decision support</strong>.</p></article>
-      </div>
-    </section>
+<section class="section"><p class="kicker">TECHNICAL PROFILE</p><h2>Methods & skills</h2><div class="skills"><div class="card"><h3>Programming & Data Engineering</h3><p>Python · NumPy · pandas · scikit-learn · GeoPandas · Rasterio · GDAL</p></div><div class="card"><h3>Cloud & Scalable EO</h3><p>Google Earth Engine · large-area time series · feature engineering · automated mapping and validation</p></div><div class="card"><h3>Remote Sensing</h3><p>Sentinel-1/2 · Landsat · optical-SAR integration · hyperspectral processing · phenology · spectral unmixing</p></div><div class="card"><h3>AI / GeoAI</h3><p>Random Forest · PyTorch · CNN · Transformer · Capsule Network · multimodal learning · few-shot / domain generalization</p></div></div></section>
 
-    <section id="patents" class="section-card">
-      <div class="section-heading"><p class="section-kicker">INNOVATION</p><h2>Patents, software & presentation</h2></div>
-      <ul class="clean-list">
-        <li><strong>Granted invention patent (2026):</strong> Method, device and electronic equipment for monitoring farmland soil organic matter. Patent No. ZL 2026 1 0297486.2.</li>
-        <li><strong>Granted invention patent (2024):</strong> Method and device for determining soil organic matter content using ground–satellite spectral differential fine registration. Patent No. ZL 2024 1 0904056.3.</li>
-        <li><strong>Software registration:</strong> Farmland Soil Health Monitoring System V1.0, Registration No. 2024SR1254209.</li>
-        <li><strong>Oral presentation:</strong> “Enhancing Regional Soil Total Nitrogen Mapping through Differentiated Fusion of Ground Hyperspectral and Satellite Images Under Low Vegetation Cover,” 5th International Symposium on Earth Observation for Arid and Semi-Arid Environments (ISEO), 2024.</li>
-      </ul>
-    </section>
-
-    <section id="skills" class="section-card">
-      <div class="section-heading"><p class="section-kicker">TECHNICAL PROFILE</p><h2>Methods & skills</h2></div>
-      <div class="skill-grid">
-        <div><h3>Programming & Data Engineering</h3><p>Python · NumPy · pandas · scikit-learn · GeoPandas · Rasterio · GDAL · reproducible geospatial workflows</p></div>
-        <div><h3>Cloud & Scalable EO</h3><p>Google Earth Engine · large-area time-series processing · cloud-based feature extraction · automated mapping and validation</p></div>
-        <div><h3>Remote Sensing</h3><p>Sentinel-1/2 · Landsat · SAR–optical fusion · hyperspectral sensing · phenological time series · spectral unmixing · soil/crop parameter inversion</p></div>
-        <div><h3>AI / GeoAI</h3><p>Random Forest · PyTorch · CNNs · Transformers · Capsule Networks · multimodal representation learning · few-shot learning · domain adaptation/generalization</p></div>
-      </div>
-      <p class="muted method-note"><strong>Current methodological frontier:</strong> geospatial foundation models, self-/weakly-supervised learning, uncertainty-aware transfer and multimodal agricultural Earth intelligence.</p>
-    </section>
-
-    <section id="awards" class="section-card">
-      <div class="section-heading"><p class="section-kicker">RECOGNITION</p><h2>Selected awards</h2></div>
-      <ul class="clean-list two-col">
-        <li><strong>Outstanding Presentation Award</strong>, 2025 Remote Sensing Science Graduate Student Forum</li>
-        <li><strong>First-Class Academic Scholarship</strong>, UCAS, 2023–2024</li>
-        <li><strong>Meritorious Student</strong>, UCAS, 2022–2023</li>
-        <li><strong>Outstanding Student Leader</strong>, UCAS, 2022–2023</li>
-        <li><strong>Outstanding League Secretary</strong>, UCAS, 2022–2023</li>
-        <li><strong>National First Prize</strong>, 2nd National College Student Surveying & Mapping Innovation Competition, 2021</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="section-card contact-card">
-      <div class="section-heading"><p class="section-kicker">COLLABORATION</p><h2>Contact</h2></div>
-      <p>I welcome discussions on visiting-PhD collaboration, multimodal Earth observation, GeoAI for agriculture, crop/soil monitoring, Central Asian agricultural applications, food security and SDG-oriented Earth intelligence.</p>
-      <div class="contact-links">
-        <a href="mailto:herongpeng22@mails.ucas.ac.cn">herongpeng22@mails.ucas.ac.cn</a>
-        <a href="mailto:1830606456@qq.com">1830606456@qq.com</a>
-        <a href="https://orcid.org/0009-0001-4943-5326" target="_blank" rel="noopener">ORCID</a>
-        <a href="https://github.com/Hrp1204" target="_blank" rel="noopener">GitHub</a>
-      </div>
-      <p class="muted">Beijing, China · Aerospace Information Research Institute, Chinese Academy of Sciences</p>
-    </section>
-  </main>
-
-  <footer><p>© 2026 Rongpeng He · Last updated October 2026</p></footer>
-</body>
-</html>
+<section id="contact" class="section contact"><p class="kicker">COLLABORATION</p><h2>Contact</h2><p>I welcome discussions on visiting-PhD collaboration, multimodal Earth observation, GeoAI for agriculture, crop/soil monitoring, Central Asian agricultural applications, food security and SDG-oriented Earth intelligence.</p><div class="contact-links"><a href="mailto:herongpeg22@mails.ucas.ac.cn">herongpeg22@mails.ucas.ac.cn</a><a href="https://orcid.org/0009-0001-4943-5326" target="_blank">ORCID</a><a href="https://github.com/Hrp1204" target="_blank">GitHub</a></div></section>
+</main><footer>© 2026 Rongpeng He · Last updated October 2026</footer></body></html>
